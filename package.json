@@ -1,0 +1,29 @@
+{
+  "name": "local-port",
+  "version": "0.0.1",
+  "description": "Find open or closed local port within a range",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyuka/local-port.git"
+  },
+  "keywords": [
+    "port",
+    "local",
+    "open",
+    "close"
+  ],
+  "author": "soyuka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyuka/local-port/issues"
+  },
+  "homepage": "https://github.com/soyuka/local-port",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.19.0"
+  }
+}
