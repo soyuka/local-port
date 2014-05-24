@@ -15,6 +15,6 @@ Find open or closed local port within a range
 
 ## API
 
-`findOpen(start, [end,] callback)` 
-`findClose(start, [end,] callback)` 
-`isPortTaken(port, callback)` => `callback(err, taken)`
+- `findOpen(start, [end,] callback)` => `callback(err, port)`
+- `findClose(start, [end,] callback)` =>`callback(err, port)`
+- `isPortTaken(port, callback)` => `callback(err, taken)`
