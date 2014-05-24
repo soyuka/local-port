@@ -39,6 +39,7 @@ var portTester = {
 		var port = arr.shift();
 
 		this.isPortTaken(port, function(err, taken) {
+			//this should send error to user but it'll stop searching for ports...
 			if(taken === status)
 				return cb(null, port); //It's open
 			else
